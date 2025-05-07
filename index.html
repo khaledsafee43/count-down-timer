@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Countdown Timer</title>
     <link rel="stylesheet" href="JS and CSS code/css/style.css">
 </head>
+
 <body>
-    <div class="container">
-        <input type="number" id="timeOut" placeholder="Start Count">
-        <button onclick="myFunction()">Start</button>
-    </div>
-    <div class="time">
-        <div class="circle" style="--clr: #ff2972">
-           <div class="circle" style="--clr: #04fc43">
-            <svg>
-               <circle cx="70" cy="70" r="70" id="ss"></circle>
-            </svg>
-            <div id="seconds"><span></span></div>
-           </div>
-    </div>
-    <script src="JS and CSS code/js/jscode.js"></script>
+        <div class="container">
+            <div class="time">
+                <div class="circle" style="--clr: #ff2972">
+                    <div class="circle" style="--clr: #04fc43">
+                        <svg>
+                            <circle cx="70" cy="70" r="70" id="ss"></circle>
+                        </svg>
+                        <div id="seconds"><span></span></div>
+                    </div>
+                </div>
+            </div>
+            <input type="number" id="timeOut" placeholder="Start Count">
+            <button onclick="myFunction()">Start</button>
+        </div>
+        <script src="JS and CSS code/js/jscode.js"></script>
 </body>
+
 </html>
